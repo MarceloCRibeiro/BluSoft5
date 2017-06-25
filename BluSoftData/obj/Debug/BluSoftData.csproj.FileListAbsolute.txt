@@ -1,0 +1,4 @@
+D:\Familia\Documents\Pedro\BluSoftData\bin\Debug\BluSoftData.dll
+D:\Familia\Documents\Pedro\BluSoftData\bin\Debug\BluSoftData.pdb
+D:\Familia\Documents\Pedro\BluSoftData\obj\Debug\BluSoftData.dll
+D:\Familia\Documents\Pedro\BluSoftData\obj\Debug\BluSoftData.pdb

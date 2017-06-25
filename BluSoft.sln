@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BluSoft", "BluSoft\", "{D012BD0B-E6D8-43DC-9698-C8BF682950F4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{F6696D46-09F2-4D1D-8E5F-AE9A8CC53EF3}|BluSoftService.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/BluSoft"
+		Debug.AspNetCompiler.PhysicalPath = "BluSoft\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\BluSoft\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/BluSoft"
+		Release.AspNetCompiler.PhysicalPath = "BluSoft\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\BluSoft\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51338"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentation", "Apresentation", "{00033CF4-D645-4626-98D4-425902017640}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0278DBA7-7D58-4BD4-8C64-C888BD72313A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{03FC4E40-C96B-4789-8B05-A1B1E7A217FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluSoftData", "BluSoftData\BluSoftData.csproj", "{7EC7FD4B-082D-401E-840B-1B1DF8DD70EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluSoftService", "BluSoftService\BluSoftService.csproj", "{F6696D46-09F2-4D1D-8E5F-AE9A8CC53EF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D012BD0B-E6D8-43DC-9698-C8BF682950F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D012BD0B-E6D8-43DC-9698-C8BF682950F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D012BD0B-E6D8-43DC-9698-C8BF682950F4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D012BD0B-E6D8-43DC-9698-C8BF682950F4}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{7EC7FD4B-082D-401E-840B-1B1DF8DD70EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC7FD4B-082D-401E-840B-1B1DF8DD70EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC7FD4B-082D-401E-840B-1B1DF8DD70EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC7FD4B-082D-401E-840B-1B1DF8DD70EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6696D46-09F2-4D1D-8E5F-AE9A8CC53EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6696D46-09F2-4D1D-8E5F-AE9A8CC53EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6696D46-09F2-4D1D-8E5F-AE9A8CC53EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6696D46-09F2-4D1D-8E5F-AE9A8CC53EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D012BD0B-E6D8-43DC-9698-C8BF682950F4} = {00033CF4-D645-4626-98D4-425902017640}
+		{F6696D46-09F2-4D1D-8E5F-AE9A8CC53EF3} = {0278DBA7-7D58-4BD4-8C64-C888BD72313A}
+		{7EC7FD4B-082D-401E-840B-1B1DF8DD70EE} = {03FC4E40-C96B-4789-8B05-A1B1E7A217FE}
+	EndGlobalSection
+EndGlobal
